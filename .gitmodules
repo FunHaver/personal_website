@@ -1,3 +1,0 @@
-[submodule "Django-Blog"]
-	path = blog
-	url = https://github.com/FunHaver/Django-Blog.git

@@ -1,0 +1,25 @@
+.billboard {
+    height: 66vh;
+    min-height: 300px;
+}
+
+.flex-skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    min-width: 600px;
+    margin: auto;
+}
+
+.flex-skills .skills-item {
+    min-height: 100px;
+}
+
+.flex-skills .skills-item p{
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.15em;
+}
+

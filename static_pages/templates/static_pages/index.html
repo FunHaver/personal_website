@@ -1,10 +1,23 @@
 {% include "base/header.html" %}
 	{% load static %}
-	<link rel="stylesheet" type="text/css" href="{% static 'blog/index.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'blog/index.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'static_pages/front_page.css' %}">
     <title>Test Home Page</title>
 </head>
 <body>
     {% include "base/menu.html" %}
-    <h1>Testing home page</h1>
-</body>
-</html>
+    <div class="billboard">
+
+    </div>
+    <div class="flex-skills">
+        <div class="skills-item">
+            <p>Front End Development</p>
+        </div>
+        <div class="skills-item">
+            <p>Back End Development</p>
+        </div>
+        <div class="skills-item">
+            <p>Linux Administration</p>
+        </div>
+    </div>
+{% include "base/footer.html" %}

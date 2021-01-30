@@ -9,14 +9,23 @@ html {
 
 body {
 	margin: 0;
+	background-color: #272727;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p, span li{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 14px;
+}
 /*Nav menu*/
 
 .blog-nav-menu {
 	display: flex;
 	justify-content: space-between;
-	background-color: #5DB7DE;
+	background-color: #272727;
 	margin: 0;
 	padding: 5px 20px;
 }
@@ -24,7 +33,9 @@ body {
 .blog-title {
 	display: block;
 	font-size: 2em;
-	color: #F1E9DB
+	color: #F1E9DB;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
 }
 
 .blog-menu-list {
@@ -42,8 +53,18 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.blog-menu-item a {
+.menu-item-link {
 	text-decoration: none;
 	padding: 8px 5px;
 	color: #F1E9DB;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+}
+
+.menu-item-link:hover {
+	color: #A9BCD0
+}
+
+.current-page {
+	color: #58A4B0
 }

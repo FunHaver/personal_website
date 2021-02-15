@@ -1,19 +1,40 @@
 .billboard {
-    height: 66vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
     min-height: 300px;
+
 }
 
+.billboard-title {
+    font-size: 2.5em;
+    margin: 0px 0px 15px 0px;
+}
+
+.billboard-subtitle {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    margin: 10px 0px 0px 0px;
+}
 .flex-skills {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: auto;
     min-width: 600px;
-    margin: auto;
+    margin: auto 10px;
 }
 
 .flex-skills .skills-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100px;
+    border: solid 1px white;
+    min-width: auto;
+    width: 33%;
 }
 
 .flex-skills .skills-item p{
@@ -23,3 +44,15 @@
     font-size: 1.15em;
 }
 
+.skill-summary {
+    border: 1px solid white;
+    width: auto;
+    min-width: 600px;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+.skill-subtitle {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

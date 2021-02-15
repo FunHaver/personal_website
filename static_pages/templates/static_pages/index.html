@@ -2,22 +2,58 @@
 	{% load static %}
     <link rel="stylesheet" type="text/css" href="{% static 'blog/index.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'static_pages/front_page.css' %}">
-    <title>Test Home Page</title>
+    <title>Conor Sullivan</title>
 </head>
 <body>
     {% include "base/menu.html" %}
     <div class="billboard">
-
+        <h1 class="billboard-title">Hi, I'm <span class="highlight">Conor</span></h1>
+        <p class="billboard-subtitle">I do a little bit of a lot on the web</p>
     </div>
     <div class="flex-skills">
+        <div class="skills-item">
+            <p>Linux Administration</p>
+        </div>
         <div class="skills-item">
             <p>Front End Development</p>
         </div>
         <div class="skills-item">
             <p>Back End Development</p>
         </div>
-        <div class="skills-item">
-            <p>Linux Administration</p>
-        </div>
     </div>
+    <section class="skill-summary" id="linuxAdminSection">
+        <h2>Linux Administration</h2>
+        <span class="skill-subtitle">Debian & RHEL based systems</span>
+        <ul>
+            <li>Web Hosting <span>- VPS Provisioning, Server Configuration, App Deployment</span></li>
+            <li>Email Hosting <span>- MTA Deployment, Email Authentication</span></li>
+            <li>Authentication <span>- LDAP, Shibboleth/SAML, CAS</span></li>
+            <li>DNS Management</li>
+            <li>IP Phone Deployment & Management <span>- FreePBX</span></li>
+        </ul>
+    </section>
+    <section class="skill-summary" id="frontEndSection">
+        <h2>Front End Development</h2>
+        <ul>
+            <li>Languages <span>- HTML, CSS, Sass, Javascript</span></li>
+            <li>Frameworks <span>- Bootstrap</span></li>
+        </ul>
+    </section>
+    <section class="skill-summary" id="backEndSection">
+        <h2>Back End Development- </h2>
+        <ul>
+            <li>Database Development & Management <span>- Postgresql</span></li>
+            <li>Frameworks <span>- Django</span></li>
+            <li>CMS <span>- WordPress</span></li>
+        </ul>
+    </section>
+    <section class="skill-summary" id="miscSection">
+        <h2>Other Tools</h2>
+        <ul>
+            <li>Shell Environment <span>- Bash</span></li>
+            <li>Version Control <span>- Git</span></li>
+            <li>VPS & Cloud Service Providers <span>- Linode, AWS, DigitalOcean</span></li>
+            <li>Javascript Toolkit <span>- Gulp</span></li>
+        </ul>
+    </section>
 {% include "base/footer.html" %}

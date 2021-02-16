@@ -9,7 +9,7 @@ html {
 
 body {
 	margin: 0;
-	background-color: #272727;
+	background-color: #0A0A0A;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 }
 
-p, li{
+p, li, a {
 	font-family: 'Times New Roman', Times, serif;
 	color: white;
 }
@@ -25,13 +25,17 @@ p, li{
 
 .blog-nav-menu {
 	display: flex;
+	position: relative;
 	justify-content: space-between;
-	background-color: #272727;
+	background-color: rgba(10,10,10,0.9);
 	margin: 0;
 	padding: 5px 20px;
-	border-bottom: 1px solid #58A4B0;
-	box-shadow: 0px 2px 2px #58A4B0;
+	border-bottom: 2px solid #b0bad3;
+	z-index: 2;
+	/* box-shadow: 0px 3px 3px #b0bad3; */
+
 }
+
 
 .blog-title {
 	display: block;
@@ -65,7 +69,7 @@ p, li{
 }
 
 .menu-item-link:hover {
-	color: #A9BCD0
+	color: #b0bad3;
 }
 
 .current-page {
@@ -73,5 +77,5 @@ p, li{
 }
 
 .highlight {
-	color: #A9BCD0;
+	color: #b0bad3;
 }

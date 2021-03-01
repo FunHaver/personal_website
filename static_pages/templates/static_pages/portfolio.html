@@ -1,9 +1,17 @@
 {% include "base/header.html" %}
 	{% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'static_pages/portfolio.css' %}">
+
     <title>Portfolio</title>
 </head>
 <body>
     {% include "base/menu.html" %}
-    <h1>Portfolio</h1>
+    <h1 class="portfolio-title">Portfolio</h1>
+    <div class="flex-folio">
+        <div class="portfolio-item"></div>
+        <div class="portfolio-item"></div>
+        <div class="portfolio-item"></div>
+        <div class="portfolio-item"></div>
+    </div>
 </body>
 </html>

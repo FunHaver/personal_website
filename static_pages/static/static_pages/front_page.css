@@ -1,10 +1,3 @@
-body {
-    background-image: url("https://images.unsplash.com/photo-1494147086697-9cac90849503?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 0%;
-}
-
 .billboard {
     display: grid;
     grid-template-columns: 1fr;
@@ -98,6 +91,3 @@ body {
     font-size: 1.15em;
 }
 
-.faded {
-    color: #AAA;
-}

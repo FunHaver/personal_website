@@ -1,0 +1,23 @@
+.portfolio-title {
+    width: 100%;
+    text-align: center;
+    color: #b0bad3;
+}
+
+.flex-folio {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.portfolio-item {
+    border: 1px solid white;
+    margin: 5px 5px;
+    min-width: 240px;
+    width: 48%;
+    height: 300px;
+}

@@ -87,3 +87,19 @@ p, li, a {
 .faded {
     color: #AAA;
 }
+
+@media screen and (max-width: 960px) {
+	.blog-title {
+		font-size: 1.5em;
+		margin-left: 5px;
+		align-items: space-between;
+	}
+
+	.blog-nav-menu {
+		padding: 10px 0px;
+	}
+
+	.blog-menu-list {
+		display: none;
+	}
+}

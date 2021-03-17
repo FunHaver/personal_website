@@ -7,11 +7,34 @@
 <body>
     {% include "base/menu.html" %}
     <h1 class="portfolio-title">Portfolio</h1>
-    <div class="flex-folio">
-        <div class="portfolio-item"></div>
-        <div class="portfolio-item"></div>
-        <div class="portfolio-item"></div>
-        <div class="portfolio-item"></div>
+    <div class="portfolio-section">
+        
+        <div class="portfolio-item">
+            <a class="portfolio-link" href="/blog"><h2 class="portfolio-item-title">Personal Blog</h2></a>
+            <h3 class="portfolio-item-description">Django Web Application</h3>
+        </div>
+        
+        <div class="portfolio-item">
+            <a class="portfolio-link" href="https://sullyscapes.com"><h2 class="portfolio-item-title">SullyScapes LandScaping</h2></a>
+            <h3 class="portfolio-item-description">Business Site with WordPress Integration</h3>
+        </div>
+        <div class="portfolio-item">
+            <a class="portfolio-link" href="https://murmuring-escarpment-42190.herokuapp.com/"><h2 class="portfolio-item-title">URL "Lengthener" Microservice API</h2></a>
+            <h3 class="portfolio-item-description">REST API Interface written in Flask + Postgres</h3>
+        </div>
+        <div class="portfolio-item">
+            <a class="portfolio-link" href="#"><h2 class="portfolio-item-title">Social Media UI Proof of Concept</h2></a>
+            <h3 class="portfolio-item-description">Interactive React JS based Social Media Feed</h3>
+        </div>
+        <div class="portfolio-item">
+            <a class="portfolio-link" href="#"><h2 class="portfolio-item-title">WLK Investments</h2></a>
+            <h3 class="portfolio-item-description">Business Website ported to WordPress</h3>
+        </div>
+        <div class="portfolio-item">
+            <a class="portfolio-link" href="https://lacuisinepcs.com"><h2 class="portfolio-item-title">LaCuisine PCS</h2></a>
+            <h3 class="portfolio-item-description">Business Website implemented in WSYIWYG interface</h3>
+        </div>
     </div>
+    <script src="{% static 'static_pages/scroll_highlight.js' %}"></script>
 </body>
 </html>

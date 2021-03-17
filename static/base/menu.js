@@ -8,7 +8,6 @@ function current_page_highlight(pageLocation = window.location.pathname) {
         menuItem = menuItems[i].children[0];
         splitPath = menuItem.attributes.href.nodeValue.split('/')
         basePage = '/' + splitPath[1];
-        console.log(basePage + " " + pageLocation)
         if (basePage === pageLocation || basePage + '/' === pageLocation) {
             menuItem.classList.add('current-page');
         } else if (menuItem.classList.contains('current-page') && basePage !== pageLocation) {
